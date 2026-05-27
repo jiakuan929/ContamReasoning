@@ -1,0 +1,2780 @@
+[
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{50^2}{(105^3 - 77)})$",
+        "answer": [
+            "\\frac{625}{289387}",
+            "0.002159737652347894"
+        ],
+        "steps": [
+            "Step 1: 50^2 = 2500",
+            "Step 2: 105^3 = 1157625",
+            "Step 3: 1157625 - 77 = 1157548",
+            "Step 4: \\frac{2500}{1157548} = \\frac{625}{289387}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(8 + ((93 + 153) - 11^2))$",
+        "answer": [
+            "133"
+        ],
+        "steps": [
+            "Step 1: 93 + 153 = 246",
+            "Step 2: 11^2 = 121",
+            "Step 3: 246 - 121 = 125",
+            "Step 4: 8 + 125 = 133"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(4 + (\\frac{102}{(\\frac{84}{(\\frac{12}{4826809})})}))$",
+        "answer": [
+            "\\frac{135150754}{33787663}",
+            "4.000003018853361"
+        ],
+        "steps": [
+            "Step 1: \\frac{12}{4826809} = \\frac{12}{4826809}",
+            "Step 2: \\frac{84}{\\frac{12}{4826809}} = 33787663",
+            "Step 3: \\frac{102}{33787663} = \\frac{102}{33787663}",
+            "Step 4: 4 + \\frac{102}{33787663} = \\frac{135150754}{33787663}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(62 + (70 + (\\frac{128}{192})))}{152})$",
+        "answer": [
+            "\\frac{199}{228}",
+            "0.8728070175438597"
+        ],
+        "steps": [
+            "Step 1: \\frac{128}{192} = \\frac{2}{3}",
+            "Step 2: 70 + \\frac{2}{3} = \\frac{212}{3}",
+            "Step 3: 62 + \\frac{212}{3} = \\frac{398}{3}",
+            "Step 4: \\frac{\\frac{398}{3}}{152} = \\frac{199}{228}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{164}{4}) \\times ((58 + 29) + 12))$",
+        "answer": [
+            "4059"
+        ],
+        "steps": [
+            "Step 1: \\frac{164}{4} = 41",
+            "Step 2: 58 + 29 = 87",
+            "Step 3: 87 + 12 = 99",
+            "Step 4: 41 \\times 99 = 4059"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(56^2 - (\\frac{179}{38^2}))$",
+        "answer": [
+            "\\frac{4528205}{1444}",
+            "3135.8760387811635"
+        ],
+        "steps": [
+            "Step 1: 56^2 = 3136",
+            "Step 2: 38^2 = 1444",
+            "Step 3: \\frac{179}{1444} = \\frac{179}{1444}",
+            "Step 4: 3136 - \\frac{179}{1444} = \\frac{4528205}{1444}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((88 \\times 9) + 7^3) + 131)$",
+        "answer": [
+            "1266"
+        ],
+        "steps": [
+            "Step 1: 88 \\times 9 = 792",
+            "Step 2: 7^3 = 343",
+            "Step 3: 792 + 343 = 1135",
+            "Step 4: 1135 + 131 = 1266"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(42 + ((\\frac{47^2}{31329}) \\times 25))$",
+        "answer": [
+            "\\frac{1371043}{31329}",
+            "43.76274378371477"
+        ],
+        "steps": [
+            "Step 1: 47^2 = 2209",
+            "Step 2: \\frac{2209}{31329} = \\frac{2209}{31329}",
+            "Step 3: \\frac{2209}{31329} \\times 25 = \\frac{55225}{31329}",
+            "Step 4: 42 + \\frac{55225}{31329} = \\frac{1371043}{31329}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((32 \\times 116) - 104^2) + 40)$",
+        "answer": [
+            "-7064"
+        ],
+        "steps": [
+            "Step 1: 32 \\times 116 = 3712",
+            "Step 2: 104^2 = 10816",
+            "Step 3: 3712 - 10816 = -7104",
+            "Step 4: -7104 + 40 = -7064"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(157 - (314432 + 104))}{83^3})$",
+        "answer": [
+            "\\frac{-314379}{571787}",
+            "-0.5498183764233884"
+        ],
+        "steps": [
+            "Step 1: 314432 + 104 = 314536",
+            "Step 2: 157 - 314536 = -314379",
+            "Step 3: 83^3 = 571787",
+            "Step 4: \\frac{-314379}{571787} = \\frac{-314379}{571787}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{137^2}{((59 \\times 53) - 3581577)})$",
+        "answer": [
+            "\\frac{-18769}{3578450}",
+            "-0.005245008313655353"
+        ],
+        "steps": [
+            "Step 1: 137^2 = 18769",
+            "Step 2: 59 \\times 53 = 3127",
+            "Step 3: 3127 - 3581577 = -3578450",
+            "Step 4: \\frac{18769}{-3578450} = \\frac{-18769}{3578450}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((166 + 7) - (\\frac{31^3}{5625}))$",
+        "answer": [
+            "\\frac{943334}{5625}",
+            "167.70382222222221"
+        ],
+        "steps": [
+            "Step 1: 166 + 7 = 173",
+            "Step 2: 31^3 = 29791",
+            "Step 3: \\frac{29791}{5625} = \\frac{29791}{5625}",
+            "Step 4: 173 - \\frac{29791}{5625} = \\frac{943334}{5625}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{177}{101}) - (126 + (\\frac{19683}{165})))$",
+        "answer": [
+            "\\frac{-1352856}{5555}",
+            "-243.53843384338433"
+        ],
+        "steps": [
+            "Step 1: \\frac{177}{101} = \\frac{177}{101}",
+            "Step 2: \\frac{19683}{165} = \\frac{6561}{55}",
+            "Step 3: 126 + \\frac{6561}{55} = \\frac{13491}{55}",
+            "Step 4: \\frac{177}{101} - \\frac{13491}{55} = \\frac{-1352856}{5555}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{27225}{41^3}) + 24^2)$",
+        "answer": [
+            "\\frac{39725721}{68921}",
+            "576.3950174837858"
+        ],
+        "steps": [
+            "Step 1: 41^3 = 68921",
+            "Step 2: \\frac{27225}{68921} = \\frac{27225}{68921}",
+            "Step 3: 24^2 = 576",
+            "Step 4: \\frac{27225}{68921} + 576 = \\frac{39725721}{68921}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(((\\frac{27}{179}) \\times 108) \\times 129)}{125})$",
+        "answer": [
+            "\\frac{376164}{22375}",
+            "16.811798882681565"
+        ],
+        "steps": [
+            "Step 1: \\frac{27}{179} = \\frac{27}{179}",
+            "Step 2: \\frac{27}{179} \\times 108 = \\frac{2916}{179}",
+            "Step 3: \\frac{2916}{179} \\times 129 = \\frac{376164}{179}",
+            "Step 4: \\frac{\\frac{376164}{179}}{125} = \\frac{376164}{22375}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(29584 - (96 \\times 183))}{(6 \\times 43)})$",
+        "answer": [
+            "\\frac{6008}{129}",
+            "46.57364341085271"
+        ],
+        "steps": [
+            "Step 1: 96 \\times 183 = 17568",
+            "Step 2: 29584 - 17568 = 12016",
+            "Step 3: 6 \\times 43 = 258",
+            "Step 4: \\frac{12016}{258} = \\frac{6008}{129}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(106^2 + 42)}{165^3})$",
+        "answer": [
+            "\\frac{11278}{4492125}",
+            "0.0025106157998719984"
+        ],
+        "steps": [
+            "Step 1: 106^2 = 11236",
+            "Step 2: 11236 + 42 = 11278",
+            "Step 3: 165^3 = 4492125",
+            "Step 4: \\frac{11278}{4492125} = \\frac{11278}{4492125}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(69 \\times (\\frac{(189 - 169^3)}{300763}))$",
+        "answer": [
+            "\\frac{-333036780}{300763}",
+            "-1107.3063508476773"
+        ],
+        "steps": [
+            "Step 1: 169^3 = 4826809",
+            "Step 2: 189 - 4826809 = -4826620",
+            "Step 3: \\frac{-4826620}{300763} = \\frac{-4826620}{300763}",
+            "Step 4: 69 \\times \\frac{-4826620}{300763} = \\frac{-333036780}{300763}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{20^2}{(79 \\times 45^3)})$",
+        "answer": [
+            "\\frac{16}{287955}",
+            "5.556423746765988e-05"
+        ],
+        "steps": [
+            "Step 1: 20^2 = 400",
+            "Step 2: 45^3 = 91125",
+            "Step 3: 79 \\times 91125 = 7198875",
+            "Step 4: \\frac{400}{7198875} = \\frac{16}{287955}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{49}{((\\frac{131}{(54 \\times 17689)}) + 12)})$",
+        "answer": [
+            "\\frac{46805094}{11462603}",
+            "4.083286667086002"
+        ],
+        "steps": [
+            "Step 1: 54 \\times 17689 = 955206",
+            "Step 2: \\frac{131}{955206} = \\frac{131}{955206}",
+            "Step 3: \\frac{131}{955206} + 12 = \\frac{11462603}{955206}",
+            "Step 4: \\frac{49}{\\frac{11462603}{955206}} = \\frac{46805094}{11462603}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(105 + (196 - (\\frac{170}{18})))}{68921})$",
+        "answer": [
+            "\\frac{64}{15129}",
+            "0.004230286205301077"
+        ],
+        "steps": [
+            "Step 1: \\frac{170}{18} = \\frac{85}{9}",
+            "Step 2: 196 - \\frac{85}{9} = \\frac{1679}{9}",
+            "Step 3: 105 + \\frac{1679}{9} = \\frac{2624}{9}",
+            "Step 4: \\frac{\\frac{2624}{9}}{68921} = \\frac{64}{15129}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{110592}{((145 \\times 18) - 157)})}{178})$",
+        "answer": [
+            "\\frac{55296}{218317}",
+            "0.25328307003119316"
+        ],
+        "steps": [
+            "Step 1: 145 \\times 18 = 2610",
+            "Step 2: 2610 - 157 = 2453",
+            "Step 3: \\frac{110592}{2453} = \\frac{110592}{2453}",
+            "Step 4: \\frac{\\frac{110592}{2453}}{178} = \\frac{55296}{218317}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(134 + (65 \\times 122))}{17689}) + 20)$",
+        "answer": [
+            "\\frac{51692}{2527}",
+            "20.45587653343886"
+        ],
+        "steps": [
+            "Step 1: 65 \\times 122 = 7930",
+            "Step 2: 134 + 7930 = 8064",
+            "Step 3: \\frac{8064}{17689} = \\frac{1152}{2527}",
+            "Step 4: \\frac{1152}{2527} + 20 = \\frac{51692}{2527}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(134 - 40000)}{(143 + 199^3)})$",
+        "answer": [
+            "\\frac{-19933}{3940371}",
+            "-0.005058660720018496"
+        ],
+        "steps": [
+            "Step 1: 134 - 40000 = -39866",
+            "Step 2: 199^3 = 7880599",
+            "Step 3: 143 + 7880599 = 7880742",
+            "Step 4: \\frac{-39866}{7880742} = \\frac{-19933}{3940371}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((\\frac{33}{3796416}) + (\\frac{15}{900}))}{2197000})$",
+        "answer": [
+            "\\frac{105511}{13901209920000}",
+            "7.590058750799728e-09"
+        ],
+        "steps": [
+            "Step 1: \\frac{33}{3796416} = \\frac{11}{1265472}",
+            "Step 2: \\frac{15}{900} = \\frac{1}{60}",
+            "Step 3: \\frac{11}{1265472} + \\frac{1}{60} = \\frac{105511}{6327360}",
+            "Step 4: \\frac{\\frac{105511}{6327360}}{2197000} = \\frac{105511}{13901209920000}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{(36100 + 1520875)}{357911})}{51^3})$",
+        "answer": [
+            "\\frac{1556975}{47477252061}",
+            "3.279412629019806e-05"
+        ],
+        "steps": [
+            "Step 1: 36100 + 1520875 = 1556975",
+            "Step 2: \\frac{1556975}{357911} = \\frac{1556975}{357911}",
+            "Step 3: 51^3 = 132651",
+            "Step 4: \\frac{\\frac{1556975}{357911}}{132651} = \\frac{1556975}{47477252061}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{147}{(\\frac{190}{160})}) \\times (87 - 88))$",
+        "answer": [
+            "\\frac{-2352}{19}",
+            "-123.78947368421052"
+        ],
+        "steps": [
+            "Step 1: \\frac{190}{160} = \\frac{19}{16}",
+            "Step 2: \\frac{147}{\\frac{19}{16}} = \\frac{2352}{19}",
+            "Step 3: 87 - 88 = -1",
+            "Step 4: \\frac{2352}{19} \\times -1 = \\frac{-2352}{19}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{(\\frac{183}{23})}{39^3})}{15})$",
+        "answer": [
+            "\\frac{61}{6821685}",
+            "8.942072229954916e-06"
+        ],
+        "steps": [
+            "Step 1: \\frac{183}{23} = \\frac{183}{23}",
+            "Step 2: 39^3 = 59319",
+            "Step 3: \\frac{\\frac{183}{23}}{59319} = \\frac{61}{454779}",
+            "Step 4: \\frac{\\frac{61}{454779}}{15} = \\frac{61}{6821685}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((165 - 196) \\times 52) - (14 - 5))$",
+        "answer": [
+            "-1621"
+        ],
+        "steps": [
+            "Step 1: 165 - 196 = -31",
+            "Step 2: -31 \\times 52 = -1612",
+            "Step 3: 14 - 5 = 9",
+            "Step 4: -1612 - 9 = -1621"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{109}{195})}{(\\frac{(\\frac{64}{441})}{133})})$",
+        "answer": [
+            "\\frac{2131059}{4160}",
+            "512.2737980769231"
+        ],
+        "steps": [
+            "Step 1: \\frac{109}{195} = \\frac{109}{195}",
+            "Step 2: \\frac{64}{441} = \\frac{64}{441}",
+            "Step 3: \\frac{\\frac{64}{441}}{133} = \\frac{64}{58653}",
+            "Step 4: \\frac{\\frac{109}{195}}{\\frac{64}{58653}} = \\frac{2131059}{4160}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(88 \\times (\\frac{(193 + 193)}{159^3}))$",
+        "answer": [
+            "\\frac{33968}{4019679}",
+            "0.008450426016604808"
+        ],
+        "steps": [
+            "Step 1: 193 + 193 = 386",
+            "Step 2: 159^3 = 4019679",
+            "Step 3: \\frac{386}{4019679} = \\frac{386}{4019679}",
+            "Step 4: 88 \\times \\frac{386}{4019679} = \\frac{33968}{4019679}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{(5088448 \\times 43)}{(107 - 1643032)})}{37})$",
+        "answer": [
+            "\\frac{-218803264}{60788225}",
+            "-3.5994349892598443"
+        ],
+        "steps": [
+            "Step 1: 5088448 \\times 43 = 218803264",
+            "Step 2: 107 - 1643032 = -1642925",
+            "Step 3: \\frac{218803264}{-1642925} = \\frac{-218803264}{1642925}",
+            "Step 4: \\frac{\\frac{-218803264}{1642925}}{37} = \\frac{-218803264}{60788225}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(55 - (147 \\times 25921))}{97^3})$",
+        "answer": [
+            "\\frac{-3810332}{912673}",
+            "-4.174914783279444"
+        ],
+        "steps": [
+            "Step 1: 147 \\times 25921 = 3810387",
+            "Step 2: 55 - 3810387 = -3810332",
+            "Step 3: 97^3 = 912673",
+            "Step 4: \\frac{-3810332}{912673} = \\frac{-3810332}{912673}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{27225}{(121 + 198)}) + (\\frac{161}{151}))$",
+        "answer": [
+            "\\frac{378394}{4379}",
+            "86.41105275176982"
+        ],
+        "steps": [
+            "Step 1: 121 + 198 = 319",
+            "Step 2: \\frac{27225}{319} = \\frac{2475}{29}",
+            "Step 3: \\frac{161}{151} = \\frac{161}{151}",
+            "Step 4: \\frac{2475}{29} + \\frac{161}{151} = \\frac{378394}{4379}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{42}{(152^2 \\times 107)}) + 200)$",
+        "answer": [
+            "\\frac{247212821}{1236064}",
+            "200.00001698941156"
+        ],
+        "steps": [
+            "Step 1: 152^2 = 23104",
+            "Step 2: 23104 \\times 107 = 2472128",
+            "Step 3: \\frac{42}{2472128} = \\frac{21}{1236064}",
+            "Step 4: \\frac{21}{1236064} + 200 = \\frac{247212821}{1236064}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{15129}{((63 - 6229504) - 184)})}{6724})$",
+        "answer": [
+            "\\frac{-9}{24918500}",
+            "-3.6117743844934487e-07"
+        ],
+        "steps": [
+            "Step 1: 63 - 6229504 = -6229441",
+            "Step 2: -6229441 - 184 = -6229625",
+            "Step 3: \\frac{15129}{-6229625} = \\frac{-15129}{6229625}",
+            "Step 4: \\frac{\\frac{-15129}{6229625}}{6724} = \\frac{-9}{24918500}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(1^2 + (\\frac{176^3}{3652264}))$",
+        "answer": [
+            "\\frac{855}{343}",
+            "2.492711370262391"
+        ],
+        "steps": [
+            "Step 1: 1^2 = 1",
+            "Step 2: 176^3 = 5451776",
+            "Step 3: \\frac{5451776}{3652264} = \\frac{512}{343}",
+            "Step 4: 1 + \\frac{512}{343} = \\frac{855}{343}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(166375 + 56)}{(137 \\times 88)}) + 20)$",
+        "answer": [
+            "\\frac{407551}{12056}",
+            "33.804827471798276"
+        ],
+        "steps": [
+            "Step 1: 166375 + 56 = 166431",
+            "Step 2: 137 \\times 88 = 12056",
+            "Step 3: \\frac{166431}{12056} = \\frac{166431}{12056}",
+            "Step 4: \\frac{166431}{12056} + 20 = \\frac{407551}{12056}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(44 - (175 + (\\frac{173}{(\\frac{1404928}{58})})))$",
+        "answer": [
+            "\\frac{-92027801}{702464}",
+            "-131.00714200300655"
+        ],
+        "steps": [
+            "Step 1: \\frac{1404928}{58} = \\frac{702464}{29}",
+            "Step 2: \\frac{173}{\\frac{702464}{29}} = \\frac{5017}{702464}",
+            "Step 3: 175 + \\frac{5017}{702464} = \\frac{122936217}{702464}",
+            "Step 4: 44 - \\frac{122936217}{702464} = \\frac{-92027801}{702464}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(195 + 1728)}{191^2}) + 49)$",
+        "answer": [
+            "\\frac{1789492}{36481}",
+            "49.052712370823166"
+        ],
+        "steps": [
+            "Step 1: 195 + 1728 = 1923",
+            "Step 2: 191^2 = 36481",
+            "Step 3: \\frac{1923}{36481} = \\frac{1923}{36481}",
+            "Step 4: \\frac{1923}{36481} + 49 = \\frac{1789492}{36481}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(614125 - 135)}{(183 \\times (98 \\times 32))})$",
+        "answer": [
+            "\\frac{306995}{286944}",
+            "1.0698777461804394"
+        ],
+        "steps": [
+            "Step 1: 614125 - 135 = 613990",
+            "Step 2: 98 \\times 32 = 3136",
+            "Step 3: 183 \\times 3136 = 573888",
+            "Step 4: \\frac{613990}{573888} = \\frac{306995}{286944}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{(42 \\times 76)}{34^3})}{92})$",
+        "answer": [
+            "\\frac{399}{451996}",
+            "0.0008827511747891574"
+        ],
+        "steps": [
+            "Step 1: 42 \\times 76 = 3192",
+            "Step 2: 34^3 = 39304",
+            "Step 3: \\frac{3192}{39304} = \\frac{399}{4913}",
+            "Step 4: \\frac{\\frac{399}{4913}}{92} = \\frac{399}{451996}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{193}{((85 + 129) - (180 - 441))})$",
+        "answer": [
+            "\\frac{193}{475}",
+            "0.4063157894736842"
+        ],
+        "steps": [
+            "Step 1: 85 + 129 = 214",
+            "Step 2: 180 - 441 = -261",
+            "Step 3: 214 - -261 = 475",
+            "Step 4: \\frac{193}{475} = \\frac{193}{475}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(147 + (\\frac{(4356 + 7)}{39^3}))$",
+        "answer": [
+            "\\frac{8724256}{59319}",
+            "147.07355147591835"
+        ],
+        "steps": [
+            "Step 1: 4356 + 7 = 4363",
+            "Step 2: 39^3 = 59319",
+            "Step 3: \\frac{4363}{59319} = \\frac{4363}{59319}",
+            "Step 4: 147 + \\frac{4363}{59319} = \\frac{8724256}{59319}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{183^2}{76^3}) + 153)$",
+        "answer": [
+            "\\frac{67196817}{438976}",
+            "153.07628890873306"
+        ],
+        "steps": [
+            "Step 1: 183^2 = 33489",
+            "Step 2: 76^3 = 438976",
+            "Step 3: \\frac{33489}{438976} = \\frac{33489}{438976}",
+            "Step 4: \\frac{33489}{438976} + 153 = \\frac{67196817}{438976}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((71^3 + 38) - 6)}{3796416})$",
+        "answer": [
+            "\\frac{357943}{3796416}",
+            "0.09428445144051653"
+        ],
+        "steps": [
+            "Step 1: 71^3 = 357911",
+            "Step 2: 357911 + 38 = 357949",
+            "Step 3: 357949 - 6 = 357943",
+            "Step 4: \\frac{357943}{3796416} = \\frac{357943}{3796416}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{105}{(\\frac{181^3}{72^3})})$",
+        "answer": [
+            "\\frac{39191040}{5929741}",
+            "6.609233017091303"
+        ],
+        "steps": [
+            "Step 1: 181^3 = 5929741",
+            "Step 2: 72^3 = 373248",
+            "Step 3: \\frac{5929741}{373248} = \\frac{5929741}{373248}",
+            "Step 4: \\frac{105}{\\frac{5929741}{373248}} = \\frac{39191040}{5929741}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(\\frac{95}{(3112136 - 9261)})}{66}) + 73)$",
+        "answer": [
+            "\\frac{2989930369}{40957950}",
+            "73.0000004638904"
+        ],
+        "steps": [
+            "Step 1: 3112136 - 9261 = 3102875",
+            "Step 2: \\frac{95}{3102875} = \\frac{19}{620575}",
+            "Step 3: \\frac{\\frac{19}{620575}}{66} = \\frac{19}{40957950}",
+            "Step 4: \\frac{19}{40957950} + 73 = \\frac{2989930369}{40957950}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{130}{((71^3 - 96) - 44)})$",
+        "answer": [
+            "\\frac{130}{357771}",
+            "0.000363360920812475"
+        ],
+        "steps": [
+            "Step 1: 71^3 = 357911",
+            "Step 2: 357911 - 96 = 357815",
+            "Step 3: 357815 - 44 = 357771",
+            "Step 4: \\frac{130}{357771} = \\frac{130}{357771}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((625 \\times (\\frac{(83 + 71)}{25281})) \\times 169)$",
+        "answer": [
+            "\\frac{16266250}{25281}",
+            "643.417981883628"
+        ],
+        "steps": [
+            "Step 1: 83 + 71 = 154",
+            "Step 2: \\frac{154}{25281} = \\frac{154}{25281}",
+            "Step 3: 625 \\times \\frac{154}{25281} = \\frac{96250}{25281}",
+            "Step 4: \\frac{96250}{25281} \\times 169 = \\frac{16266250}{25281}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{106^2}{((\\frac{15625}{26}) \\times 94)})$",
+        "answer": [
+            "\\frac{146068}{734375}",
+            "0.19890110638297873"
+        ],
+        "steps": [
+            "Step 1: 106^2 = 11236",
+            "Step 2: \\frac{15625}{26} = \\frac{15625}{26}",
+            "Step 3: \\frac{15625}{26} \\times 94 = \\frac{734375}{13}",
+            "Step 4: \\frac{11236}{\\frac{734375}{13}} = \\frac{146068}{734375}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{138^2}{(63 - (8464 \\times 161))})$",
+        "answer": [
+            "\\frac{-19044}{1362641}",
+            "-0.013975801403304318"
+        ],
+        "steps": [
+            "Step 1: 138^2 = 19044",
+            "Step 2: 8464 \\times 161 = 1362704",
+            "Step 3: 63 - 1362704 = -1362641",
+            "Step 4: \\frac{19044}{-1362641} = \\frac{-19044}{1362641}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{17}{((5041 + 27^2) \\times 2299968)})$",
+        "answer": [
+            "\\frac{17}{13270815360}",
+            "1.2810064445053058e-09"
+        ],
+        "steps": [
+            "Step 1: 27^2 = 729",
+            "Step 2: 5041 + 729 = 5770",
+            "Step 3: 5770 \\times 2299968 = 13270815360",
+            "Step 4: \\frac{17}{13270815360} = \\frac{17}{13270815360}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(175 - (12544 \\times (182 - 133)))}{120})$",
+        "answer": [
+            "\\frac{-204827}{40}",
+            "-5120.675"
+        ],
+        "steps": [
+            "Step 1: 182 - 133 = 49",
+            "Step 2: 12544 \\times 49 = 614656",
+            "Step 3: 175 - 614656 = -614481",
+            "Step 4: \\frac{-614481}{120} = \\frac{-204827}{40}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{123}{(125 \\times (185193 - (147 + 126)))})$",
+        "answer": [
+            "\\frac{41}{7705000}",
+            "5.3212199870214144e-06"
+        ],
+        "steps": [
+            "Step 1: 147 + 126 = 273",
+            "Step 2: 185193 - 273 = 184920",
+            "Step 3: 125 \\times 184920 = 23115000",
+            "Step 4: \\frac{123}{23115000} = \\frac{41}{7705000}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((120^2 - 126) - 152^2)$",
+        "answer": [
+            "-8830"
+        ],
+        "steps": [
+            "Step 1: 120^2 = 14400",
+            "Step 2: 14400 - 126 = 14274",
+            "Step 3: 152^2 = 23104",
+            "Step 4: 14274 - 23104 = -8830"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((60 + 6^3) + (188 + 187))$",
+        "answer": [
+            "651"
+        ],
+        "steps": [
+            "Step 1: 6^3 = 216",
+            "Step 2: 60 + 216 = 276",
+            "Step 3: 188 + 187 = 375",
+            "Step 4: 276 + 375 = 651"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((6 + (\\frac{137}{19})) - 9) - 26)$",
+        "answer": [
+            "\\frac{-414}{19}",
+            "-21.789473684210527"
+        ],
+        "steps": [
+            "Step 1: \\frac{137}{19} = \\frac{137}{19}",
+            "Step 2: 6 + \\frac{137}{19} = \\frac{251}{19}",
+            "Step 3: \\frac{251}{19} - 9 = \\frac{80}{19}",
+            "Step 4: \\frac{80}{19} - 26 = \\frac{-414}{19}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{196^2}{(72 + 85184)}) + 1)$",
+        "answer": [
+            "\\frac{15459}{10657}",
+            "1.4505958524913203"
+        ],
+        "steps": [
+            "Step 1: 196^2 = 38416",
+            "Step 2: 72 + 85184 = 85256",
+            "Step 3: \\frac{38416}{85256} = \\frac{4802}{10657}",
+            "Step 4: \\frac{4802}{10657} + 1 = \\frac{15459}{10657}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{99}{((\\frac{4913}{(\\frac{179}{35})}) \\times 194)})$",
+        "answer": [
+            "\\frac{17721}{33359270}",
+            "0.0005312166603166076"
+        ],
+        "steps": [
+            "Step 1: \\frac{179}{35} = \\frac{179}{35}",
+            "Step 2: \\frac{4913}{\\frac{179}{35}} = \\frac{171955}{179}",
+            "Step 3: \\frac{171955}{179} \\times 194 = \\frac{33359270}{179}",
+            "Step 4: \\frac{99}{\\frac{33359270}{179}} = \\frac{17721}{33359270}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(63^2 + (4^3 + 67))$",
+        "answer": [
+            "4100"
+        ],
+        "steps": [
+            "Step 1: 63^2 = 3969",
+            "Step 2: 4^3 = 64",
+            "Step 3: 64 + 67 = 131",
+            "Step 4: 3969 + 131 = 4100"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(116 + 90)}{(68^2 - 77)})$",
+        "answer": [
+            "\\frac{206}{4547}",
+            "0.045304596437211346"
+        ],
+        "steps": [
+            "Step 1: 116 + 90 = 206",
+            "Step 2: 68^2 = 4624",
+            "Step 3: 4624 - 77 = 4547",
+            "Step 4: \\frac{206}{4547} = \\frac{206}{4547}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((98 + 121^2) - (114 \\times 119))$",
+        "answer": [
+            "1173"
+        ],
+        "steps": [
+            "Step 1: 121^2 = 14641",
+            "Step 2: 98 + 14641 = 14739",
+            "Step 3: 114 \\times 119 = 13566",
+            "Step 4: 14739 - 13566 = 1173"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{139^2}{(140 + 154^3)})$",
+        "answer": [
+            "\\frac{19321}{3652404}",
+            "0.005289940543269584"
+        ],
+        "steps": [
+            "Step 1: 139^2 = 19321",
+            "Step 2: 154^3 = 3652264",
+            "Step 3: 140 + 3652264 = 3652404",
+            "Step 4: \\frac{19321}{3652404} = \\frac{19321}{3652404}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(174 - (\\frac{88^2}{115^3}))$",
+        "answer": [
+            "\\frac{264624506}{1520875}",
+            "173.99490819429604"
+        ],
+        "steps": [
+            "Step 1: 88^2 = 7744",
+            "Step 2: 115^3 = 1520875",
+            "Step 3: \\frac{7744}{1520875} = \\frac{7744}{1520875}",
+            "Step 4: 174 - \\frac{7744}{1520875} = \\frac{264624506}{1520875}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(31 \\times 200)}{190^2}) - 64)$",
+        "answer": [
+            "\\frac{-23042}{361}",
+            "-63.82825484764543"
+        ],
+        "steps": [
+            "Step 1: 31 \\times 200 = 6200",
+            "Step 2: 190^2 = 36100",
+            "Step 3: \\frac{6200}{36100} = \\frac{62}{361}",
+            "Step 4: \\frac{62}{361} - 64 = \\frac{-23042}{361}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(114 + (\\frac{100}{((\\frac{19}{23}) - 20)}))$",
+        "answer": [
+            "\\frac{47974}{441}",
+            "108.78458049886622"
+        ],
+        "steps": [
+            "Step 1: \\frac{19}{23} = \\frac{19}{23}",
+            "Step 2: \\frac{19}{23} - 20 = \\frac{-441}{23}",
+            "Step 3: \\frac{100}{\\frac{-441}{23}} = \\frac{-2300}{441}",
+            "Step 4: 114 + \\frac{-2300}{441} = \\frac{47974}{441}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{146^2}{(109 - (\\frac{200}{161}))})$",
+        "answer": [
+            "\\frac{3431876}{17349}",
+            "197.81405268315177"
+        ],
+        "steps": [
+            "Step 1: 146^2 = 21316",
+            "Step 2: \\frac{200}{161} = \\frac{200}{161}",
+            "Step 3: 109 - \\frac{200}{161} = \\frac{17349}{161}",
+            "Step 4: \\frac{21316}{\\frac{17349}{161}} = \\frac{3431876}{17349}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(125 - (139 - (\\frac{156}{(\\frac{13689}{49})})))$",
+        "answer": [
+            "\\frac{-4718}{351}",
+            "-13.441595441595442"
+        ],
+        "steps": [
+            "Step 1: \\frac{13689}{49} = \\frac{13689}{49}",
+            "Step 2: \\frac{156}{\\frac{13689}{49}} = \\frac{196}{351}",
+            "Step 3: 139 - \\frac{196}{351} = \\frac{48593}{351}",
+            "Step 4: 125 - \\frac{48593}{351} = \\frac{-4718}{351}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(16129 \\times (\\frac{130}{(159 + (19683 \\times 96))}))$",
+        "answer": [
+            "\\frac{2096770}{1889727}",
+            "1.1095623865246145"
+        ],
+        "steps": [
+            "Step 1: 19683 \\times 96 = 1889568",
+            "Step 2: 159 + 1889568 = 1889727",
+            "Step 3: \\frac{130}{1889727} = \\frac{130}{1889727}",
+            "Step 4: 16129 \\times \\frac{130}{1889727} = \\frac{2096770}{1889727}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(61^2 \\times 77)}{(23 \\times 140)})$",
+        "answer": [
+            "\\frac{40931}{460}",
+            "88.9804347826087"
+        ],
+        "steps": [
+            "Step 1: 61^2 = 3721",
+            "Step 2: 3721 \\times 77 = 286517",
+            "Step 3: 23 \\times 140 = 3220",
+            "Step 4: \\frac{286517}{3220} = \\frac{40931}{460}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((64 - (\\frac{(28 \\times 99)}{25})) - 512)$",
+        "answer": [
+            "\\frac{-13972}{25}",
+            "-558.88"
+        ],
+        "steps": [
+            "Step 1: 28 \\times 99 = 2772",
+            "Step 2: \\frac{2772}{25} = \\frac{2772}{25}",
+            "Step 3: 64 - \\frac{2772}{25} = \\frac{-1172}{25}",
+            "Step 4: \\frac{-1172}{25} - 512 = \\frac{-13972}{25}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((188 - 135) - 75^2) + 149)$",
+        "answer": [
+            "-5423"
+        ],
+        "steps": [
+            "Step 1: 188 - 135 = 53",
+            "Step 2: 75^2 = 5625",
+            "Step 3: 53 - 5625 = -5572",
+            "Step 4: -5572 + 149 = -5423"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(121 + 133^3)}{100^3})$",
+        "answer": [
+            "\\frac{1176379}{500000}",
+            "2.352758"
+        ],
+        "steps": [
+            "Step 1: 133^3 = 2352637",
+            "Step 2: 121 + 2352637 = 2352758",
+            "Step 3: 100^3 = 1000000",
+            "Step 4: \\frac{2352758}{1000000} = \\frac{1176379}{500000}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((42 - (79 + (\\frac{2146689}{5184}))) - 118)$",
+        "answer": [
+            "\\frac{-109267}{192}",
+            "-569.0989583333334"
+        ],
+        "steps": [
+            "Step 1: \\frac{2146689}{5184} = \\frac{79507}{192}",
+            "Step 2: 79 + \\frac{79507}{192} = \\frac{94675}{192}",
+            "Step 3: 42 - \\frac{94675}{192} = \\frac{-86611}{192}",
+            "Step 4: \\frac{-86611}{192} - 118 = \\frac{-109267}{192}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((116 \\times (\\frac{160^2}{441})) + 22)$",
+        "answer": [
+            "\\frac{2979302}{441}",
+            "6755.786848072562"
+        ],
+        "steps": [
+            "Step 1: 160^2 = 25600",
+            "Step 2: \\frac{25600}{441} = \\frac{25600}{441}",
+            "Step 3: 116 \\times \\frac{25600}{441} = \\frac{2969600}{441}",
+            "Step 4: \\frac{2969600}{441} + 22 = \\frac{2979302}{441}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{80^3}{31}) - 157^2)$",
+        "answer": [
+            "\\frac{-252119}{31}",
+            "-8132.870967741936"
+        ],
+        "steps": [
+            "Step 1: 80^3 = 512000",
+            "Step 2: \\frac{512000}{31} = \\frac{512000}{31}",
+            "Step 3: 157^2 = 24649",
+            "Step 4: \\frac{512000}{31} - 24649 = \\frac{-252119}{31}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((62^2 - (\\frac{100}{6})) - 30)$",
+        "answer": [
+            "\\frac{11392}{3}",
+            "3797.3333333333335"
+        ],
+        "steps": [
+            "Step 1: 62^2 = 3844",
+            "Step 2: \\frac{100}{6} = \\frac{50}{3}",
+            "Step 3: 3844 - \\frac{50}{3} = \\frac{11482}{3}",
+            "Step 4: \\frac{11482}{3} - 30 = \\frac{11392}{3}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(197 + (126 \\times (\\frac{1600}{189})))}{4913})$",
+        "answer": [
+            "\\frac{223}{867}",
+            "0.25720876585928487"
+        ],
+        "steps": [
+            "Step 1: \\frac{1600}{189} = \\frac{1600}{189}",
+            "Step 2: 126 \\times \\frac{1600}{189} = \\frac{3200}{3}",
+            "Step 3: 197 + \\frac{3200}{3} = \\frac{3791}{3}",
+            "Step 4: \\frac{\\frac{3791}{3}}{4913} = \\frac{223}{867}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(((\\frac{147}{167}) \\times 131) + 4)}{68})$",
+        "answer": [
+            "\\frac{19925}{11356}",
+            "1.754579077139838"
+        ],
+        "steps": [
+            "Step 1: \\frac{147}{167} = \\frac{147}{167}",
+            "Step 2: \\frac{147}{167} \\times 131 = \\frac{19257}{167}",
+            "Step 3: \\frac{19257}{167} + 4 = \\frac{19925}{167}",
+            "Step 4: \\frac{\\frac{19925}{167}}{68} = \\frac{19925}{11356}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{13^2}{106}) - (44 - 91))$",
+        "answer": [
+            "\\frac{5151}{106}",
+            "48.594339622641506"
+        ],
+        "steps": [
+            "Step 1: 13^2 = 169",
+            "Step 2: \\frac{169}{106} = \\frac{169}{106}",
+            "Step 3: 44 - 91 = -47",
+            "Step 4: \\frac{169}{106} - -47 = \\frac{5151}{106}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(47 - ((\\frac{162}{70^3}) + 48))$",
+        "answer": [
+            "\\frac{-171581}{171500}",
+            "-1.000472303206997"
+        ],
+        "steps": [
+            "Step 1: 70^3 = 343000",
+            "Step 2: \\frac{162}{343000} = \\frac{81}{171500}",
+            "Step 3: \\frac{81}{171500} + 48 = \\frac{8232081}{171500}",
+            "Step 4: 47 - \\frac{8232081}{171500} = \\frac{-171581}{171500}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(91 + 175)}{80^2}) - 150)$",
+        "answer": [
+            "\\frac{-479867}{3200}",
+            "-149.9584375"
+        ],
+        "steps": [
+            "Step 1: 91 + 175 = 266",
+            "Step 2: 80^2 = 6400",
+            "Step 3: \\frac{266}{6400} = \\frac{133}{3200}",
+            "Step 4: \\frac{133}{3200} - 150 = \\frac{-479867}{3200}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((\\frac{73^2}{192}) \\times 183)}{188})$",
+        "answer": [
+            "\\frac{325069}{12032}",
+            "27.01703789893617"
+        ],
+        "steps": [
+            "Step 1: 73^2 = 5329",
+            "Step 2: \\frac{5329}{192} = \\frac{5329}{192}",
+            "Step 3: \\frac{5329}{192} \\times 183 = \\frac{325069}{64}",
+            "Step 4: \\frac{\\frac{325069}{64}}{188} = \\frac{325069}{12032}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{196}{((\\frac{133^3}{158}) + 107)})$",
+        "answer": [
+            "\\frac{30968}{2369543}",
+            "0.013069186758796949"
+        ],
+        "steps": [
+            "Step 1: 133^3 = 2352637",
+            "Step 2: \\frac{2352637}{158} = \\frac{2352637}{158}",
+            "Step 3: \\frac{2352637}{158} + 107 = \\frac{2369543}{158}",
+            "Step 4: \\frac{196}{\\frac{2369543}{158}} = \\frac{30968}{2369543}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{156}{84^2})}{42^2})$",
+        "answer": [
+            "\\frac{13}{1037232}",
+            "1.2533358014407578e-05"
+        ],
+        "steps": [
+            "Step 1: 84^2 = 7056",
+            "Step 2: \\frac{156}{7056} = \\frac{13}{588}",
+            "Step 3: 42^2 = 1764",
+            "Step 4: \\frac{\\frac{13}{588}}{1764} = \\frac{13}{1037232}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(196 + (\\frac{(\\frac{(134 - 126)}{5})}{71}))$",
+        "answer": [
+            "\\frac{69588}{355}",
+            "196.0225352112676"
+        ],
+        "steps": [
+            "Step 1: 134 - 126 = 8",
+            "Step 2: \\frac{8}{5} = \\frac{8}{5}",
+            "Step 3: \\frac{\\frac{8}{5}}{71} = \\frac{8}{355}",
+            "Step 4: 196 + \\frac{8}{355} = \\frac{69588}{355}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(141^2 + (173 \\times (50 - 125)))$",
+        "answer": [
+            "6906"
+        ],
+        "steps": [
+            "Step 1: 141^2 = 19881",
+            "Step 2: 50 - 125 = -75",
+            "Step 3: 173 \\times -75 = -12975",
+            "Step 4: 19881 + -12975 = 6906"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{(166 - 2401)}{23^3})}{14161})$",
+        "answer": [
+            "\\frac{-2235}{172296887}",
+            "-1.29717955960516e-05"
+        ],
+        "steps": [
+            "Step 1: 166 - 2401 = -2235",
+            "Step 2: 23^3 = 12167",
+            "Step 3: \\frac{-2235}{12167} = \\frac{-2235}{12167}",
+            "Step 4: \\frac{\\frac{-2235}{12167}}{14161} = \\frac{-2235}{172296887}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((55^2 - (125 - 127)) - 195)$",
+        "answer": [
+            "2832"
+        ],
+        "steps": [
+            "Step 1: 55^2 = 3025",
+            "Step 2: 125 - 127 = -2",
+            "Step 3: 3025 - -2 = 3027",
+            "Step 4: 3027 - 195 = 2832"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(38809 - 15625)}{((95 \\times 3511808) - 36)})$",
+        "answer": [
+            "\\frac{5796}{83405431}",
+            "6.949187757329615e-05"
+        ],
+        "steps": [
+            "Step 1: 38809 - 15625 = 23184",
+            "Step 2: 95 \\times 3511808 = 333621760",
+            "Step 3: 333621760 - 36 = 333621724",
+            "Step 4: \\frac{23184}{333621724} = \\frac{5796}{83405431}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{36}{2^2})}{117^3})$",
+        "answer": [
+            "\\frac{1}{177957}",
+            "5.619335007895166e-06"
+        ],
+        "steps": [
+            "Step 1: 2^2 = 4",
+            "Step 2: \\frac{36}{4} = 9",
+            "Step 3: 117^3 = 1601613",
+            "Step 4: \\frac{9}{1601613} = \\frac{1}{177957}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(115 + (\\frac{135}{64}))}{186^2})$",
+        "answer": [
+            "\\frac{7495}{2214144}",
+            "0.0033850553532200254"
+        ],
+        "steps": [
+            "Step 1: \\frac{135}{64} = \\frac{135}{64}",
+            "Step 2: 115 + \\frac{135}{64} = \\frac{7495}{64}",
+            "Step 3: 186^2 = 34596",
+            "Step 4: \\frac{\\frac{7495}{64}}{34596} = \\frac{7495}{2214144}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{80}{((189 + 196) + (34 \\times 160))})$",
+        "answer": [
+            "\\frac{16}{1165}",
+            "0.013733905579399141"
+        ],
+        "steps": [
+            "Step 1: 189 + 196 = 385",
+            "Step 2: 34 \\times 160 = 5440",
+            "Step 3: 385 + 5440 = 5825",
+            "Step 4: \\frac{80}{5825} = \\frac{16}{1165}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((51 - (149 + 114)) \\times 181)}{6229504})$",
+        "answer": [
+            "\\frac{-9593}{1557376}",
+            "-0.006159719939179749"
+        ],
+        "steps": [
+            "Step 1: 149 + 114 = 263",
+            "Step 2: 51 - 263 = -212",
+            "Step 3: -212 \\times 181 = -38372",
+            "Step 4: \\frac{-38372}{6229504} = \\frac{-9593}{1557376}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(64 \\times 54^2)}{126^2})$",
+        "answer": [
+            "\\frac{576}{49}",
+            "11.755102040816327"
+        ],
+        "steps": [
+            "Step 1: 54^2 = 2916",
+            "Step 2: 64 \\times 2916 = 186624",
+            "Step 3: 126^2 = 15876",
+            "Step 4: \\frac{186624}{15876} = \\frac{576}{49}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((\\frac{(64 - 137)}{1295029}) \\times 100) - 131)$",
+        "answer": [
+            "\\frac{-169656099}{1295029}",
+            "-131.00563693940444"
+        ],
+        "steps": [
+            "Step 1: 64 - 137 = -73",
+            "Step 2: \\frac{-73}{1295029} = \\frac{-73}{1295029}",
+            "Step 3: \\frac{-73}{1295029} \\times 100 = \\frac{-7300}{1295029}",
+            "Step 4: \\frac{-7300}{1295029} - 131 = \\frac{-169656099}{1295029}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{155}{(152^3 - (970299 \\times 24))})$",
+        "answer": [
+            "\\frac{-155}{19775368}",
+            "-7.838033658842657e-06"
+        ],
+        "steps": [
+            "Step 1: 152^3 = 3511808",
+            "Step 2: 970299 \\times 24 = 23287176",
+            "Step 3: 3511808 - 23287176 = -19775368",
+            "Step 4: \\frac{155}{-19775368} = \\frac{-155}{19775368}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{146}{(((7569 - 96) \\times 132) + 174)})$",
+        "answer": [
+            "\\frac{73}{493305}",
+            "0.00014798147190885964"
+        ],
+        "steps": [
+            "Step 1: 7569 - 96 = 7473",
+            "Step 2: 7473 \\times 132 = 986436",
+            "Step 3: 986436 + 174 = 986610",
+            "Step 4: \\frac{146}{986610} = \\frac{73}{493305}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(176 + (185 + (\\frac{42}{87^2})))$",
+        "answer": [
+            "\\frac{910817}{2523}",
+            "361.0055489496631"
+        ],
+        "steps": [
+            "Step 1: 87^2 = 7569",
+            "Step 2: \\frac{42}{7569} = \\frac{14}{2523}",
+            "Step 3: 185 + \\frac{14}{2523} = \\frac{466769}{2523}",
+            "Step 4: 176 + \\frac{466769}{2523} = \\frac{910817}{2523}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(75 - 120^2)}{192^3})$",
+        "answer": [
+            "\\frac{-4775}{2359296}",
+            "-0.0020239088270399305"
+        ],
+        "steps": [
+            "Step 1: 120^2 = 14400",
+            "Step 2: 75 - 14400 = -14325",
+            "Step 3: 192^3 = 7077888",
+            "Step 4: \\frac{-14325}{7077888} = \\frac{-4775}{2359296}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(150^3 \\times (\\frac{53}{(193 \\times 101)}))$",
+        "answer": [
+            "\\frac{178875000}{19493}",
+            "9176.371004976145"
+        ],
+        "steps": [
+            "Step 1: 150^3 = 3375000",
+            "Step 2: 193 \\times 101 = 19493",
+            "Step 3: \\frac{53}{19493} = \\frac{53}{19493}",
+            "Step 4: 3375000 \\times \\frac{53}{19493} = \\frac{178875000}{19493}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{31}{((\\frac{2744}{136}) - 44^3)})$",
+        "answer": [
+            "\\frac{-527}{1447785}",
+            "-0.00036400432384642745"
+        ],
+        "steps": [
+            "Step 1: \\frac{2744}{136} = \\frac{343}{17}",
+            "Step 2: 44^3 = 85184",
+            "Step 3: \\frac{343}{17} - 85184 = \\frac{-1447785}{17}",
+            "Step 4: \\frac{31}{\\frac{-1447785}{17}} = \\frac{-527}{1447785}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((180 + (225 - 3025)) - (144 - 3))$",
+        "answer": [
+            "-2761"
+        ],
+        "steps": [
+            "Step 1: 225 - 3025 = -2800",
+            "Step 2: 180 + -2800 = -2620",
+            "Step 3: 144 - 3 = 141",
+            "Step 4: -2620 - 141 = -2761"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{166}{(\\frac{102^2}{165^2})})$",
+        "answer": [
+            "\\frac{251075}{578}",
+            "434.38581314878894"
+        ],
+        "steps": [
+            "Step 1: 102^2 = 10404",
+            "Step 2: 165^2 = 27225",
+            "Step 3: \\frac{10404}{27225} = \\frac{1156}{3025}",
+            "Step 4: \\frac{166}{\\frac{1156}{3025}} = \\frac{251075}{578}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((82 + 2) \\times 36100)}{99^3})$",
+        "answer": [
+            "\\frac{1010800}{323433}",
+            "3.1252222253140527"
+        ],
+        "steps": [
+            "Step 1: 82 + 2 = 84",
+            "Step 2: 84 \\times 36100 = 3032400",
+            "Step 3: 99^3 = 970299",
+            "Step 4: \\frac{3032400}{970299} = \\frac{1010800}{323433}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(41^2 + (\\frac{40^3}{11}))$",
+        "answer": [
+            "\\frac{82491}{11}",
+            "7499.181818181818"
+        ],
+        "steps": [
+            "Step 1: 41^2 = 1681",
+            "Step 2: 40^3 = 64000",
+            "Step 3: \\frac{64000}{11} = \\frac{64000}{11}",
+            "Step 4: 1681 + \\frac{64000}{11} = \\frac{82491}{11}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{64}{145}) + (\\frac{(61 + 84)}{30}))$",
+        "answer": [
+            "\\frac{4589}{870}",
+            "5.274712643678161"
+        ],
+        "steps": [
+            "Step 1: \\frac{64}{145} = \\frac{64}{145}",
+            "Step 2: 61 + 84 = 145",
+            "Step 3: \\frac{145}{30} = \\frac{29}{6}",
+            "Step 4: \\frac{64}{145} + \\frac{29}{6} = \\frac{4589}{870}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{592704}{(91 + 2000376)})}{116^2})$",
+        "answer": [
+            "\\frac{5292}{240341821}",
+            "2.2018639860434445e-05"
+        ],
+        "steps": [
+            "Step 1: 91 + 2000376 = 2000467",
+            "Step 2: \\frac{592704}{2000467} = \\frac{84672}{285781}",
+            "Step 3: 116^2 = 13456",
+            "Step 4: \\frac{\\frac{84672}{285781}}{13456} = \\frac{5292}{240341821}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(83 + 75^2)}{132}) - 40)$",
+        "answer": [
+            "\\frac{107}{33}",
+            "3.242424242424242"
+        ],
+        "steps": [
+            "Step 1: 75^2 = 5625",
+            "Step 2: 83 + 5625 = 5708",
+            "Step 3: \\frac{5708}{132} = \\frac{1427}{33}",
+            "Step 4: \\frac{1427}{33} - 40 = \\frac{107}{33}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{192^2}{(77 + 157)}) - 100)$",
+        "answer": [
+            "\\frac{748}{13}",
+            "57.53846153846154"
+        ],
+        "steps": [
+            "Step 1: 192^2 = 36864",
+            "Step 2: 77 + 157 = 234",
+            "Step 3: \\frac{36864}{234} = \\frac{2048}{13}",
+            "Step 4: \\frac{2048}{13} - 100 = \\frac{748}{13}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{9}{(\\frac{35^3}{95})}) - 65)$",
+        "answer": [
+            "\\frac{-557204}{8575}",
+            "-64.9800583090379"
+        ],
+        "steps": [
+            "Step 1: 35^3 = 42875",
+            "Step 2: \\frac{42875}{95} = \\frac{8575}{19}",
+            "Step 3: \\frac{9}{\\frac{8575}{19}} = \\frac{171}{8575}",
+            "Step 4: \\frac{171}{8575} - 65 = \\frac{-557204}{8575}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((19 - 57) + (1^2 \\times 36))$",
+        "answer": [
+            "-2"
+        ],
+        "steps": [
+            "Step 1: 19 - 57 = -38",
+            "Step 2: 1^2 = 1",
+            "Step 3: 1 \\times 36 = 36",
+            "Step 4: -38 + 36 = -2"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{128}{40^2})}{(195 + 2401)})$",
+        "answer": [
+            "\\frac{1}{32450}",
+            "3.081664098613251e-05"
+        ],
+        "steps": [
+            "Step 1: 40^2 = 1600",
+            "Step 2: \\frac{128}{1600} = \\frac{2}{25}",
+            "Step 3: 195 + 2401 = 2596",
+            "Step 4: \\frac{\\frac{2}{25}}{2596} = \\frac{1}{32450}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(79 + (\\frac{(24 \\times 196)}{(\\frac{50}{59})}))$",
+        "answer": [
+            "\\frac{140743}{25}",
+            "5629.72"
+        ],
+        "steps": [
+            "Step 1: 24 \\times 196 = 4704",
+            "Step 2: \\frac{50}{59} = \\frac{50}{59}",
+            "Step 3: \\frac{4704}{\\frac{50}{59}} = \\frac{138768}{25}",
+            "Step 4: 79 + \\frac{138768}{25} = \\frac{140743}{25}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(112 - ((127 + 30) \\times (\\frac{148}{82})))$",
+        "answer": [
+            "\\frac{-7026}{41}",
+            "-171.3658536585366"
+        ],
+        "steps": [
+            "Step 1: 127 + 30 = 157",
+            "Step 2: \\frac{148}{82} = \\frac{74}{41}",
+            "Step 3: 157 \\times \\frac{74}{41} = \\frac{11618}{41}",
+            "Step 4: 112 - \\frac{11618}{41} = \\frac{-7026}{41}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(112 \\times (48 - (\\frac{80}{(130 \\times 199)})))$",
+        "answer": [
+            "\\frac{13906816}{2587}",
+            "5375.653652879783"
+        ],
+        "steps": [
+            "Step 1: 130 \\times 199 = 25870",
+            "Step 2: \\frac{80}{25870} = \\frac{8}{2587}",
+            "Step 3: 48 - \\frac{8}{2587} = \\frac{124168}{2587}",
+            "Step 4: 112 \\times \\frac{124168}{2587} = \\frac{13906816}{2587}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(49 + (\\frac{(\\frac{(14884 - 98)}{97})}{73}))$",
+        "answer": [
+            "\\frac{361755}{7081}",
+            "51.08812314644824"
+        ],
+        "steps": [
+            "Step 1: 14884 - 98 = 14786",
+            "Step 2: \\frac{14786}{97} = \\frac{14786}{97}",
+            "Step 3: \\frac{\\frac{14786}{97}}{73} = \\frac{14786}{7081}",
+            "Step 4: 49 + \\frac{14786}{7081} = \\frac{361755}{7081}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{22801}{(2916 \\times ((132 - 79) \\times 42))})$",
+        "answer": [
+            "\\frac{22801}{6491016}",
+            "0.0035127012473856172"
+        ],
+        "steps": [
+            "Step 1: 132 - 79 = 53",
+            "Step 2: 53 \\times 42 = 2226",
+            "Step 3: 2916 \\times 2226 = 6491016",
+            "Step 4: \\frac{22801}{6491016} = \\frac{22801}{6491016}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(27^3 \\times (\\frac{72}{29^2}))$",
+        "answer": [
+            "\\frac{1417176}{841}",
+            "1685.1082045184305"
+        ],
+        "steps": [
+            "Step 1: 27^3 = 19683",
+            "Step 2: 29^2 = 841",
+            "Step 3: \\frac{72}{841} = \\frac{72}{841}",
+            "Step 4: 19683 \\times \\frac{72}{841} = \\frac{1417176}{841}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((1 \\times (\\frac{(140 + 1259712)}{197})) + 1331)$",
+        "answer": [
+            "\\frac{1522059}{197}",
+            "7726.187817258883"
+        ],
+        "steps": [
+            "Step 1: 140 + 1259712 = 1259852",
+            "Step 2: \\frac{1259852}{197} = \\frac{1259852}{197}",
+            "Step 3: 1 \\times \\frac{1259852}{197} = \\frac{1259852}{197}",
+            "Step 4: \\frac{1259852}{197} + 1331 = \\frac{1522059}{197}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((180 - 91) \\times (\\frac{30}{195^3}))$",
+        "answer": [
+            "\\frac{178}{494325}",
+            "0.0003600869873059222"
+        ],
+        "steps": [
+            "Step 1: 180 - 91 = 89",
+            "Step 2: 195^3 = 7414875",
+            "Step 3: \\frac{30}{7414875} = \\frac{2}{494325}",
+            "Step 4: 89 \\times \\frac{2}{494325} = \\frac{178}{494325}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{119^2}{45^2}) \\times 179)$",
+        "answer": [
+            "\\frac{2534819}{2025}",
+            "1251.7624691358026"
+        ],
+        "steps": [
+            "Step 1: 119^2 = 14161",
+            "Step 2: 45^2 = 2025",
+            "Step 3: \\frac{14161}{2025} = \\frac{14161}{2025}",
+            "Step 4: \\frac{14161}{2025} \\times 179 = \\frac{2534819}{2025}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(83 - (\\frac{(\\frac{91}{4^2})}{61}))$",
+        "answer": [
+            "\\frac{80917}{976}",
+            "82.90676229508196"
+        ],
+        "steps": [
+            "Step 1: 4^2 = 16",
+            "Step 2: \\frac{91}{16} = \\frac{91}{16}",
+            "Step 3: \\frac{\\frac{91}{16}}{61} = \\frac{91}{976}",
+            "Step 4: 83 - \\frac{91}{976} = \\frac{80917}{976}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((\\frac{193}{128}) + 137) - 32^2)$",
+        "answer": [
+            "\\frac{-113343}{128}",
+            "-885.4921875"
+        ],
+        "steps": [
+            "Step 1: \\frac{193}{128} = \\frac{193}{128}",
+            "Step 2: \\frac{193}{128} + 137 = \\frac{17729}{128}",
+            "Step 3: 32^2 = 1024",
+            "Step 4: \\frac{17729}{128} - 1024 = \\frac{-113343}{128}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{136}{146})}{(193^2 - 100)})$",
+        "answer": [
+            "\\frac{68}{2711877}",
+            "2.5074883558509476e-05"
+        ],
+        "steps": [
+            "Step 1: \\frac{136}{146} = \\frac{68}{73}",
+            "Step 2: 193^2 = 37249",
+            "Step 3: 37249 - 100 = 37149",
+            "Step 4: \\frac{\\frac{68}{73}}{37149} = \\frac{68}{2711877}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(\\frac{65}{86})}{(144 + 112)}) \\times 78)$",
+        "answer": [
+            "\\frac{2535}{11008}",
+            "0.23028706395348839"
+        ],
+        "steps": [
+            "Step 1: \\frac{65}{86} = \\frac{65}{86}",
+            "Step 2: 144 + 112 = 256",
+            "Step 3: \\frac{\\frac{65}{86}}{256} = \\frac{65}{22016}",
+            "Step 4: \\frac{65}{22016} \\times 78 = \\frac{2535}{11008}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((90 - (14^2 - 151)) - 113)$",
+        "answer": [
+            "-68"
+        ],
+        "steps": [
+            "Step 1: 14^2 = 196",
+            "Step 2: 196 - 151 = 45",
+            "Step 3: 90 - 45 = 45",
+            "Step 4: 45 - 113 = -68"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((144 \\times (41 - 180)) - 18)}{970299})$",
+        "answer": [
+            "\\frac{-742}{35937}",
+            "-0.020647243787739654"
+        ],
+        "steps": [
+            "Step 1: 41 - 180 = -139",
+            "Step 2: 144 \\times -139 = -20016",
+            "Step 3: -20016 - 18 = -20034",
+            "Step 4: \\frac{-20034}{970299} = \\frac{-742}{35937}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{96}{(((161 + 39304) + 184) + 105)})$",
+        "answer": [
+            "\\frac{48}{19877}",
+            "0.002414851335714645"
+        ],
+        "steps": [
+            "Step 1: 161 + 39304 = 39465",
+            "Step 2: 39465 + 184 = 39649",
+            "Step 3: 39649 + 105 = 39754",
+            "Step 4: \\frac{96}{39754} = \\frac{48}{19877}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{1643032}{(39 \\times (158^2 \\times 23))})$",
+        "answer": [
+            "\\frac{410758}{5598177}",
+            "0.07337352856117269"
+        ],
+        "steps": [
+            "Step 1: 158^2 = 24964",
+            "Step 2: 24964 \\times 23 = 574172",
+            "Step 3: 39 \\times 574172 = 22392708",
+            "Step 4: \\frac{1643032}{22392708} = \\frac{410758}{5598177}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((7 - 59) \\times 176)}{(142 + 142)})$",
+        "answer": [
+            "\\frac{-2288}{71}",
+            "-32.225352112676056"
+        ],
+        "steps": [
+            "Step 1: 7 - 59 = -52",
+            "Step 2: -52 \\times 176 = -9152",
+            "Step 3: 142 + 142 = 284",
+            "Step 4: \\frac{-9152}{284} = \\frac{-2288}{71}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(111 + 97)}{(56 \\times 177^3)})$",
+        "answer": [
+            "\\frac{26}{38816631}",
+            "6.69815986863981e-07"
+        ],
+        "steps": [
+            "Step 1: 111 + 97 = 208",
+            "Step 2: 177^3 = 5545233",
+            "Step 3: 56 \\times 5545233 = 310533048",
+            "Step 4: \\frac{208}{310533048} = \\frac{26}{38816631}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{4913000}{(141 + (571787 + (137 + 27225)))})$",
+        "answer": [
+            "\\frac{491300}{59929}",
+            "8.19803434063642"
+        ],
+        "steps": [
+            "Step 1: 137 + 27225 = 27362",
+            "Step 2: 571787 + 27362 = 599149",
+            "Step 3: 141 + 599149 = 599290",
+            "Step 4: \\frac{4913000}{599290} = \\frac{491300}{59929}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{11}{438976})}{(53 - (225 \\times 134))})$",
+        "answer": [
+            "\\frac{-11}{13211860672}",
+            "-8.325852257367795e-10"
+        ],
+        "steps": [
+            "Step 1: \\frac{11}{438976} = \\frac{11}{438976}",
+            "Step 2: 225 \\times 134 = 30150",
+            "Step 3: 53 - 30150 = -30097",
+            "Step 4: \\frac{\\frac{11}{438976}}{-30097} = \\frac{-11}{13211860672}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(102 + ((108 + 146) + 66^2))$",
+        "answer": [
+            "4712"
+        ],
+        "steps": [
+            "Step 1: 108 + 146 = 254",
+            "Step 2: 66^2 = 4356",
+            "Step 3: 254 + 4356 = 4610",
+            "Step 4: 102 + 4610 = 4712"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{3969}{((186 + 256) + (\\frac{156}{122}))})$",
+        "answer": [
+            "\\frac{242109}{27040}",
+            "8.953735207100591"
+        ],
+        "steps": [
+            "Step 1: 186 + 256 = 442",
+            "Step 2: \\frac{156}{122} = \\frac{78}{61}",
+            "Step 3: 442 + \\frac{78}{61} = \\frac{27040}{61}",
+            "Step 4: \\frac{3969}{\\frac{27040}{61}} = \\frac{242109}{27040}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{47}{((15 + 86^2) \\times 20)})$",
+        "answer": [
+            "\\frac{47}{148220}",
+            "0.0003170962083389556"
+        ],
+        "steps": [
+            "Step 1: 86^2 = 7396",
+            "Step 2: 15 + 7396 = 7411",
+            "Step 3: 7411 \\times 20 = 148220",
+            "Step 4: \\frac{47}{148220} = \\frac{47}{148220}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(31^2 + 85^3)}{17956})$",
+        "answer": [
+            "\\frac{307543}{8978}",
+            "34.25517932724438"
+        ],
+        "steps": [
+            "Step 1: 31^2 = 961",
+            "Step 2: 85^3 = 614125",
+            "Step 3: 961 + 614125 = 615086",
+            "Step 4: \\frac{615086}{17956} = \\frac{307543}{8978}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{197^2}{(145^3 - 189)})$",
+        "answer": [
+            "\\frac{38809}{3048436}",
+            "0.01273079047747763"
+        ],
+        "steps": [
+            "Step 1: 197^2 = 38809",
+            "Step 2: 145^3 = 3048625",
+            "Step 3: 3048625 - 189 = 3048436",
+            "Step 4: \\frac{38809}{3048436} = \\frac{38809}{3048436}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(12^2 + (\\frac{175}{(133 \\times 21)}))$",
+        "answer": [
+            "\\frac{57481}{399}",
+            "144.062656641604"
+        ],
+        "steps": [
+            "Step 1: 12^2 = 144",
+            "Step 2: 133 \\times 21 = 2793",
+            "Step 3: \\frac{175}{2793} = \\frac{25}{399}",
+            "Step 4: 144 + \\frac{25}{399} = \\frac{57481}{399}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(175 - 13)}{68}) - 3^3)$",
+        "answer": [
+            "\\frac{-837}{34}",
+            "-24.61764705882353"
+        ],
+        "steps": [
+            "Step 1: 175 - 13 = 162",
+            "Step 2: \\frac{162}{68} = \\frac{81}{34}",
+            "Step 3: 3^3 = 27",
+            "Step 4: \\frac{81}{34} - 27 = \\frac{-837}{34}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{592704}{182}) + (120^2 - 7921))$",
+        "answer": [
+            "\\frac{126563}{13}",
+            "9735.615384615385"
+        ],
+        "steps": [
+            "Step 1: \\frac{592704}{182} = \\frac{42336}{13}",
+            "Step 2: 120^2 = 14400",
+            "Step 3: 14400 - 7921 = 6479",
+            "Step 4: \\frac{42336}{13} + 6479 = \\frac{126563}{13}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{183}{456533})}{(5929741 \\times 150^2)})$",
+        "answer": [
+            "\\frac{61}{20303418359647500}",
+            "3.0044201877470973e-15"
+        ],
+        "steps": [
+            "Step 1: \\frac{183}{456533} = \\frac{183}{456533}",
+            "Step 2: 150^2 = 22500",
+            "Step 3: 5929741 \\times 22500 = 133419172500",
+            "Step 4: \\frac{\\frac{183}{456533}}{133419172500} = \\frac{61}{20303418359647500}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(27^2 + 179^2)}{197})$",
+        "answer": [
+            "\\frac{32770}{197}",
+            "166.3451776649746"
+        ],
+        "steps": [
+            "Step 1: 27^2 = 729",
+            "Step 2: 179^2 = 32041",
+            "Step 3: 729 + 32041 = 32770",
+            "Step 4: \\frac{32770}{197} = \\frac{32770}{197}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((177 \\times 195) \\times (\\frac{1}{(161 \\times 112)}))$",
+        "answer": [
+            "\\frac{34515}{18032}",
+            "1.9140971606033719"
+        ],
+        "steps": [
+            "Step 1: 177 \\times 195 = 34515",
+            "Step 2: 161 \\times 112 = 18032",
+            "Step 3: \\frac{1}{18032} = \\frac{1}{18032}",
+            "Step 4: 34515 \\times \\frac{1}{18032} = \\frac{34515}{18032}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(\\frac{47}{16})}{58^2}) - 166)$",
+        "answer": [
+            "\\frac{-8934737}{53824}",
+            "-165.99912678359095"
+        ],
+        "steps": [
+            "Step 1: \\frac{47}{16} = \\frac{47}{16}",
+            "Step 2: 58^2 = 3364",
+            "Step 3: \\frac{\\frac{47}{16}}{3364} = \\frac{47}{53824}",
+            "Step 4: \\frac{47}{53824} - 166 = \\frac{-8934737}{53824}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{105}{(\\frac{(189^3 + 30976)}{129})})$",
+        "answer": [
+            "\\frac{2709}{1356449}",
+            "0.0019971263202671094"
+        ],
+        "steps": [
+            "Step 1: 189^3 = 6751269",
+            "Step 2: 6751269 + 30976 = 6782245",
+            "Step 3: \\frac{6782245}{129} = \\frac{6782245}{129}",
+            "Step 4: \\frac{105}{\\frac{6782245}{129}} = \\frac{2709}{1356449}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((78 - 4225) \\times 50)}{(32 \\times 132)})$",
+        "answer": [
+            "\\frac{-9425}{192}",
+            "-49.088541666666664"
+        ],
+        "steps": [
+            "Step 1: 78 - 4225 = -4147",
+            "Step 2: -4147 \\times 50 = -207350",
+            "Step 3: 32 \\times 132 = 4224",
+            "Step 4: \\frac{-207350}{4224} = \\frac{-9425}{192}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{((23 - 127) \\times 104)}{124}) - 186)$",
+        "answer": [
+            "\\frac{-8470}{31}",
+            "-273.2258064516129"
+        ],
+        "steps": [
+            "Step 1: 23 - 127 = -104",
+            "Step 2: -104 \\times 104 = -10816",
+            "Step 3: \\frac{-10816}{124} = \\frac{-2704}{31}",
+            "Step 4: \\frac{-2704}{31} - 186 = \\frac{-8470}{31}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(138 - 53)}{(2 - (144 + 154))})$",
+        "answer": [
+            "\\frac{-85}{296}",
+            "-0.28716216216216217"
+        ],
+        "steps": [
+            "Step 1: 138 - 53 = 85",
+            "Step 2: 144 + 154 = 298",
+            "Step 3: 2 - 298 = -296",
+            "Step 4: \\frac{85}{-296} = \\frac{-85}{296}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{22}{(148^2 + (104 - 149))})$",
+        "answer": [
+            "\\frac{22}{21859}",
+            "0.0010064504323162083"
+        ],
+        "steps": [
+            "Step 1: 148^2 = 21904",
+            "Step 2: 104 - 149 = -45",
+            "Step 3: 21904 + -45 = 21859",
+            "Step 4: \\frac{22}{21859} = \\frac{22}{21859}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(198 + (145 - 576))}{(92 \\times 175)})$",
+        "answer": [
+            "\\frac{-233}{16100}",
+            "-0.014472049689440995"
+        ],
+        "steps": [
+            "Step 1: 145 - 576 = -431",
+            "Step 2: 198 + -431 = -233",
+            "Step 3: 92 \\times 175 = 16100",
+            "Step 4: \\frac{-233}{16100} = \\frac{-233}{16100}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(19 \\times 198)}{(6859000 \\times 103^2)})$",
+        "answer": [
+            "\\frac{99}{1914924500}",
+            "5.1699166207336115e-08"
+        ],
+        "steps": [
+            "Step 1: 19 \\times 198 = 3762",
+            "Step 2: 103^2 = 10609",
+            "Step 3: 6859000 \\times 10609 = 72767131000",
+            "Step 4: \\frac{3762}{72767131000} = \\frac{99}{1914924500}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{18}{144}) + (\\frac{100}{6^2}))$",
+        "answer": [
+            "\\frac{209}{72}",
+            "2.9027777777777777"
+        ],
+        "steps": [
+            "Step 1: \\frac{18}{144} = \\frac{1}{8}",
+            "Step 2: 6^2 = 36",
+            "Step 3: \\frac{100}{36} = \\frac{25}{9}",
+            "Step 4: \\frac{1}{8} + \\frac{25}{9} = \\frac{209}{72}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((178 - 108) + (\\frac{(10404 + 571787)}{66}))$",
+        "answer": [
+            "\\frac{586811}{66}",
+            "8891.075757575758"
+        ],
+        "steps": [
+            "Step 1: 178 - 108 = 70",
+            "Step 2: 10404 + 571787 = 582191",
+            "Step 3: \\frac{582191}{66} = \\frac{582191}{66}",
+            "Step 4: 70 + \\frac{582191}{66} = \\frac{586811}{66}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((127 - 54) - 140)}{(193 + 152)})$",
+        "answer": [
+            "\\frac{-67}{345}",
+            "-0.19420289855072465"
+        ],
+        "steps": [
+            "Step 1: 127 - 54 = 73",
+            "Step 2: 73 - 140 = -67",
+            "Step 3: 193 + 152 = 345",
+            "Step 4: \\frac{-67}{345} = \\frac{-67}{345}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{198}{((\\frac{169^3}{32}) + 6241)})$",
+        "answer": [
+            "\\frac{2112}{1675507}",
+            "0.001260513981738065"
+        ],
+        "steps": [
+            "Step 1: 169^3 = 4826809",
+            "Step 2: \\frac{4826809}{32} = \\frac{4826809}{32}",
+            "Step 3: \\frac{4826809}{32} + 6241 = \\frac{5026521}{32}",
+            "Step 4: \\frac{198}{\\frac{5026521}{32}} = \\frac{2112}{1675507}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{98}{(71 - 173)}) + (\\frac{20449}{60}))$",
+        "answer": [
+            "\\frac{115551}{340}",
+            "339.8558823529412"
+        ],
+        "steps": [
+            "Step 1: 71 - 173 = -102",
+            "Step 2: \\frac{98}{-102} = \\frac{-49}{51}",
+            "Step 3: \\frac{20449}{60} = \\frac{20449}{60}",
+            "Step 4: \\frac{-49}{51} + \\frac{20449}{60} = \\frac{115551}{340}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{145}{(129 - (163 + 179^2))})$",
+        "answer": [
+            "\\frac{-29}{6415}",
+            "-0.004520654715510522"
+        ],
+        "steps": [
+            "Step 1: 179^2 = 32041",
+            "Step 2: 163 + 32041 = 32204",
+            "Step 3: 129 - 32204 = -32075",
+            "Step 4: \\frac{145}{-32075} = \\frac{-29}{6415}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((67 - (168 - 90)) - (85 - 189))$",
+        "answer": [
+            "93"
+        ],
+        "steps": [
+            "Step 1: 168 - 90 = 78",
+            "Step 2: 67 - 78 = -11",
+            "Step 3: 85 - 189 = -104",
+            "Step 4: -11 - -104 = 93"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(172 + (\\frac{(484 + 4^3)}{109}))$",
+        "answer": [
+            "\\frac{19296}{109}",
+            "177.0275229357798"
+        ],
+        "steps": [
+            "Step 1: 4^3 = 64",
+            "Step 2: 484 + 64 = 548",
+            "Step 3: \\frac{548}{109} = \\frac{548}{109}",
+            "Step 4: 172 + \\frac{548}{109} = \\frac{19296}{109}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{129}{(197^3 + 139^3)})$",
+        "answer": [
+            "\\frac{43}{3443664}",
+            "1.2486700212331982e-05"
+        ],
+        "steps": [
+            "Step 1: 197^3 = 7645373",
+            "Step 2: 139^3 = 2685619",
+            "Step 3: 7645373 + 2685619 = 10330992",
+            "Step 4: \\frac{129}{10330992} = \\frac{43}{3443664}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{32}{(170^3 + 73^2)})$",
+        "answer": [
+            "\\frac{32}{4918329}",
+            "6.50627479373584e-06"
+        ],
+        "steps": [
+            "Step 1: 170^3 = 4913000",
+            "Step 2: 73^2 = 5329",
+            "Step 3: 4913000 + 5329 = 4918329",
+            "Step 4: \\frac{32}{4918329} = \\frac{32}{4918329}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((11236 + 153^2) + (136 - 26896))$",
+        "answer": [
+            "7885"
+        ],
+        "steps": [
+            "Step 1: 153^2 = 23409",
+            "Step 2: 11236 + 23409 = 34645",
+            "Step 3: 136 - 26896 = -26760",
+            "Step 4: 34645 + -26760 = 7885"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(179^3 - (\\frac{145}{55}))}{7225})$",
+        "answer": [
+            "\\frac{8732}{11}",
+            "793.8181818181819"
+        ],
+        "steps": [
+            "Step 1: 179^3 = 5735339",
+            "Step 2: \\frac{145}{55} = \\frac{29}{11}",
+            "Step 3: 5735339 - \\frac{29}{11} = \\frac{63088700}{11}",
+            "Step 4: \\frac{\\frac{63088700}{11}}{7225} = \\frac{8732}{11}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(112^2 \\times (\\frac{172}{93^3}))$",
+        "answer": [
+            "\\frac{2157568}{804357}",
+            "2.682351244534454"
+        ],
+        "steps": [
+            "Step 1: 112^2 = 12544",
+            "Step 2: 93^3 = 804357",
+            "Step 3: \\frac{172}{804357} = \\frac{172}{804357}",
+            "Step 4: 12544 \\times \\frac{172}{804357} = \\frac{2157568}{804357}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((120 - 132) \\times 53) \\times (168 - 154))$",
+        "answer": [
+            "-8904"
+        ],
+        "steps": [
+            "Step 1: 120 - 132 = -12",
+            "Step 2: -12 \\times 53 = -636",
+            "Step 3: 168 - 154 = 14",
+            "Step 4: -636 \\times 14 = -8904"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(69^2 + (\\frac{(20 + 29)}{1092727}))$",
+        "answer": [
+            "\\frac{5202473296}{1092727}",
+            "4761.000044841941"
+        ],
+        "steps": [
+            "Step 1: 69^2 = 4761",
+            "Step 2: 20 + 29 = 49",
+            "Step 3: \\frac{49}{1092727} = \\frac{49}{1092727}",
+            "Step 4: 4761 + \\frac{49}{1092727} = \\frac{5202473296}{1092727}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((57 - 10) - (\\frac{155}{63^2}))$",
+        "answer": [
+            "\\frac{186388}{3969}",
+            "46.960947341899725"
+        ],
+        "steps": [
+            "Step 1: 57 - 10 = 47",
+            "Step 2: 63^2 = 3969",
+            "Step 3: \\frac{155}{3969} = \\frac{155}{3969}",
+            "Step 4: 47 - \\frac{155}{3969} = \\frac{186388}{3969}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{20}{((195 \\times 35) + (29 - 144))})$",
+        "answer": [
+            "\\frac{2}{671}",
+            "0.0029806259314456036"
+        ],
+        "steps": [
+            "Step 1: 195 \\times 35 = 6825",
+            "Step 2: 29 - 144 = -115",
+            "Step 3: 6825 + -115 = 6710",
+            "Step 4: \\frac{20}{6710} = \\frac{2}{671}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{18496}{((189 - 74) \\times (30 - 129))})$",
+        "answer": [
+            "\\frac{-18496}{11385}",
+            "-1.6245937637241985"
+        ],
+        "steps": [
+            "Step 1: 189 - 74 = 115",
+            "Step 2: 30 - 129 = -99",
+            "Step 3: 115 \\times -99 = -11385",
+            "Step 4: \\frac{18496}{-11385} = \\frac{-18496}{11385}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{153}{(\\frac{(57^2 \\times 48)}{140})})$",
+        "answer": [
+            "\\frac{595}{4332}",
+            "0.13734995383194828"
+        ],
+        "steps": [
+            "Step 1: 57^2 = 3249",
+            "Step 2: 3249 \\times 48 = 155952",
+            "Step 3: \\frac{155952}{140} = \\frac{38988}{35}",
+            "Step 4: \\frac{153}{\\frac{38988}{35}} = \\frac{595}{4332}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{6}{29^2}) \\times (\\frac{676}{143}))$",
+        "answer": [
+            "\\frac{312}{9251}",
+            "0.03372608366663064"
+        ],
+        "steps": [
+            "Step 1: 29^2 = 841",
+            "Step 2: \\frac{6}{841} = \\frac{6}{841}",
+            "Step 3: \\frac{676}{143} = \\frac{52}{11}",
+            "Step 4: \\frac{6}{841} \\times \\frac{52}{11} = \\frac{312}{9251}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((61 \\times (\\frac{45}{186^2})) + 116)$",
+        "answer": [
+            "\\frac{446209}{3844}",
+            "116.07934443288241"
+        ],
+        "steps": [
+            "Step 1: 186^2 = 34596",
+            "Step 2: \\frac{45}{34596} = \\frac{5}{3844}",
+            "Step 3: 61 \\times \\frac{5}{3844} = \\frac{305}{3844}",
+            "Step 4: \\frac{305}{3844} + 116 = \\frac{446209}{3844}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(1404928 \\times (\\frac{52}{113}))}{(171 + 163)})$",
+        "answer": [
+            "\\frac{36528128}{18871}",
+            "1935.6752689311643"
+        ],
+        "steps": [
+            "Step 1: \\frac{52}{113} = \\frac{52}{113}",
+            "Step 2: 1404928 \\times \\frac{52}{113} = \\frac{73056256}{113}",
+            "Step 3: 171 + 163 = 334",
+            "Step 4: \\frac{\\frac{73056256}{113}}{334} = \\frac{36528128}{18871}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(58^3 - 1000)}{103^2})$",
+        "answer": [
+            "\\frac{194112}{10609}",
+            "18.296917711377134"
+        ],
+        "steps": [
+            "Step 1: 58^3 = 195112",
+            "Step 2: 195112 - 1000 = 194112",
+            "Step 3: 103^2 = 10609",
+            "Step 4: \\frac{194112}{10609} = \\frac{194112}{10609}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{68}{200^2}) \\times 115^3)$",
+        "answer": [
+            "\\frac{206839}{80}",
+            "2585.4875"
+        ],
+        "steps": [
+            "Step 1: 200^2 = 40000",
+            "Step 2: \\frac{68}{40000} = \\frac{17}{10000}",
+            "Step 3: 115^3 = 1520875",
+            "Step 4: \\frac{17}{10000} \\times 1520875 = \\frac{206839}{80}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(\\frac{(42875 - 1600)}{62})}{157^3})$",
+        "answer": [
+            "\\frac{41275}{239933366}",
+            "0.00017202692850980968"
+        ],
+        "steps": [
+            "Step 1: 42875 - 1600 = 41275",
+            "Step 2: \\frac{41275}{62} = \\frac{41275}{62}",
+            "Step 3: 157^3 = 3869893",
+            "Step 4: \\frac{\\frac{41275}{62}}{3869893} = \\frac{41275}{239933366}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((53 - 60) - 97) - 10^2)$",
+        "answer": [
+            "-204"
+        ],
+        "steps": [
+            "Step 1: 53 - 60 = -7",
+            "Step 2: -7 - 97 = -104",
+            "Step 3: 10^2 = 100",
+            "Step 4: -104 - 100 = -204"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(((20449 + 165) - 154^2) + 187)$",
+        "answer": [
+            "-2915"
+        ],
+        "steps": [
+            "Step 1: 20449 + 165 = 20614",
+            "Step 2: 154^2 = 23716",
+            "Step 3: 20614 - 23716 = -3102",
+            "Step 4: -3102 + 187 = -2915"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{176^3}{128^3}) - 59)$",
+        "answer": [
+            "\\frac{-28877}{512}",
+            "-56.400390625"
+        ],
+        "steps": [
+            "Step 1: 176^3 = 5451776",
+            "Step 2: 128^3 = 2097152",
+            "Step 3: \\frac{5451776}{2097152} = \\frac{1331}{512}",
+            "Step 4: \\frac{1331}{512} - 59 = \\frac{-28877}{512}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((73 - 148) + 33)}{89^2})$",
+        "answer": [
+            "\\frac{-42}{7921}",
+            "-0.005302360813028658"
+        ],
+        "steps": [
+            "Step 1: 73 - 148 = -75",
+            "Step 2: -75 + 33 = -42",
+            "Step 3: 89^2 = 7921",
+            "Step 4: \\frac{-42}{7921} = \\frac{-42}{7921}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{62}{((49^2 \\times 44) - 155)})$",
+        "answer": [
+            "\\frac{62}{105489}",
+            "0.000587739005962707"
+        ],
+        "steps": [
+            "Step 1: 49^2 = 2401",
+            "Step 2: 2401 \\times 44 = 105644",
+            "Step 3: 105644 - 155 = 105489",
+            "Step 4: \\frac{62}{105489} = \\frac{62}{105489}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{38}{((108 + 46) \\times 145^2)})$",
+        "answer": [
+            "\\frac{19}{1618925}",
+            "1.1736182960915423e-05"
+        ],
+        "steps": [
+            "Step 1: 108 + 46 = 154",
+            "Step 2: 145^2 = 21025",
+            "Step 3: 154 \\times 21025 = 3237850",
+            "Step 4: \\frac{38}{3237850} = \\frac{19}{1618925}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(180^3 + 45)}{135^2})$",
+        "answer": [
+            "\\frac{129601}{405}",
+            "320.00246913580247"
+        ],
+        "steps": [
+            "Step 1: 180^3 = 5832000",
+            "Step 2: 5832000 + 45 = 5832045",
+            "Step 3: 135^2 = 18225",
+            "Step 4: \\frac{5832045}{18225} = \\frac{129601}{405}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{(50 + (33489 + 48))}{102^2})$",
+        "answer": [
+            "\\frac{33587}{10404}",
+            "3.2282775855440216"
+        ],
+        "steps": [
+            "Step 1: 33489 + 48 = 33537",
+            "Step 2: 50 + 33537 = 33587",
+            "Step 3: 102^2 = 10404",
+            "Step 4: \\frac{33587}{10404} = \\frac{33587}{10404}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{33124}{91^2}) \\times (\\frac{177}{16}))$",
+        "answer": [
+            "\\frac{177}{4}",
+            "44.25"
+        ],
+        "steps": [
+            "Step 1: 91^2 = 8281",
+            "Step 2: \\frac{33124}{8281} = 4",
+            "Step 3: \\frac{177}{16} = \\frac{177}{16}",
+            "Step 4: 4 \\times \\frac{177}{16} = \\frac{177}{4}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{162}{175}) + ((\\frac{112}{136}) + 146))$",
+        "answer": [
+            "\\frac{439554}{2975}",
+            "147.749243697479"
+        ],
+        "steps": [
+            "Step 1: \\frac{162}{175} = \\frac{162}{175}",
+            "Step 2: \\frac{112}{136} = \\frac{14}{17}",
+            "Step 3: \\frac{14}{17} + 146 = \\frac{2496}{17}",
+            "Step 4: \\frac{162}{175} + \\frac{2496}{17} = \\frac{439554}{2975}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((119 - 52^2) - (56 \\times 19))$",
+        "answer": [
+            "-3649"
+        ],
+        "steps": [
+            "Step 1: 52^2 = 2704",
+            "Step 2: 119 - 2704 = -2585",
+            "Step 3: 56 \\times 19 = 1064",
+            "Step 4: -2585 - 1064 = -3649"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(40 + (\\frac{85184}{((60 \\times 72) \\times 157)}))$",
+        "answer": [
+            "\\frac{850462}{21195}",
+            "40.12559565935362"
+        ],
+        "steps": [
+            "Step 1: 60 \\times 72 = 4320",
+            "Step 2: 4320 \\times 157 = 678240",
+            "Step 3: \\frac{85184}{678240} = \\frac{2662}{21195}",
+            "Step 4: 40 + \\frac{2662}{21195} = \\frac{850462}{21195}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((\\frac{(8^3 + 147)}{90}) - 79)$",
+        "answer": [
+            "\\frac{-6451}{90}",
+            "-71.67777777777778"
+        ],
+        "steps": [
+            "Step 1: 8^3 = 512",
+            "Step 2: 512 + 147 = 659",
+            "Step 3: \\frac{659}{90} = \\frac{659}{90}",
+            "Step 4: \\frac{659}{90} - 79 = \\frac{-6451}{90}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{108}{((\\frac{(26244 - 177)}{188}) \\times 4251528)})$",
+        "answer": [
+            "\\frac{94}{513076761}",
+            "1.832084536761937e-07"
+        ],
+        "steps": [
+            "Step 1: 26244 - 177 = 26067",
+            "Step 2: \\frac{26067}{188} = \\frac{26067}{188}",
+            "Step 3: \\frac{26067}{188} \\times 4251528 = \\frac{27706145094}{47}",
+            "Step 4: \\frac{108}{\\frac{27706145094}{47}} = \\frac{94}{513076761}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{((\\frac{184^3}{111}) + 116)}{57})$",
+        "answer": [
+            "\\frac{6242380}{6327}",
+            "986.6255729413624"
+        ],
+        "steps": [
+            "Step 1: 184^3 = 6229504",
+            "Step 2: \\frac{6229504}{111} = \\frac{6229504}{111}",
+            "Step 3: \\frac{6229504}{111} + 116 = \\frac{6242380}{111}",
+            "Step 4: \\frac{\\frac{6242380}{111}}{57} = \\frac{6242380}{6327}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{101}{(22 + (\\frac{(180 \\times 5)}{190}))})$",
+        "answer": [
+            "\\frac{1919}{508}",
+            "3.77755905511811"
+        ],
+        "steps": [
+            "Step 1: 180 \\times 5 = 900",
+            "Step 2: \\frac{900}{190} = \\frac{90}{19}",
+            "Step 3: 22 + \\frac{90}{19} = \\frac{508}{19}",
+            "Step 4: \\frac{101}{\\frac{508}{19}} = \\frac{1919}{508}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{196^3}{(155^3 \\times 31)})$",
+        "answer": [
+            "\\frac{7529536}{115440125}",
+            "0.06522460019858779"
+        ],
+        "steps": [
+            "Step 1: 196^3 = 7529536",
+            "Step 2: 155^3 = 3723875",
+            "Step 3: 3723875 \\times 31 = 115440125",
+            "Step 4: \\frac{7529536}{115440125} = \\frac{7529536}{115440125}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{97}{(\\frac{6644672}{(63 - 163^2)})})$",
+        "answer": [
+            "\\frac{-1285541}{3322336}",
+            "-0.38693888878186916"
+        ],
+        "steps": [
+            "Step 1: 163^2 = 26569",
+            "Step 2: 63 - 26569 = -26506",
+            "Step 3: \\frac{6644672}{-26506} = \\frac{-3322336}{13253}",
+            "Step 4: \\frac{97}{\\frac{-3322336}{13253}} = \\frac{-1285541}{3322336}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $((126 + ((\\frac{160}{71}) + 1521)) - 88)$",
+        "answer": [
+            "\\frac{110849}{71}",
+            "1561.2535211267605"
+        ],
+        "steps": [
+            "Step 1: \\frac{160}{71} = \\frac{160}{71}",
+            "Step 2: \\frac{160}{71} + 1521 = \\frac{108151}{71}",
+            "Step 3: 126 + \\frac{108151}{71} = \\frac{117097}{71}",
+            "Step 4: \\frac{117097}{71} - 88 = \\frac{110849}{71}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(26 + (147 - (96 - (\\frac{130}{124}))))$",
+        "answer": [
+            "\\frac{4839}{62}",
+            "78.04838709677419"
+        ],
+        "steps": [
+            "Step 1: \\frac{130}{124} = \\frac{65}{62}",
+            "Step 2: 96 - \\frac{65}{62} = \\frac{5887}{62}",
+            "Step 3: 147 - \\frac{5887}{62} = \\frac{3227}{62}",
+            "Step 4: 26 + \\frac{3227}{62} = \\frac{4839}{62}"
+        ],
+        "target_steps": 4
+    },
+    {
+        "problem": "Evaluate this LaTeX numerical expression: $(\\frac{133}{(4624 - (23 \\times 47^2))})$",
+        "answer": [
+            "\\frac{-133}{46183}",
+            "-0.002879847562956066"
+        ],
+        "steps": [
+            "Step 1: 47^2 = 2209",
+            "Step 2: 23 \\times 2209 = 50807",
+            "Step 3: 4624 - 50807 = -46183",
+            "Step 4: \\frac{133}{-46183} = \\frac{-133}{46183}"
+        ],
+        "target_steps": 4
+    }
+]
