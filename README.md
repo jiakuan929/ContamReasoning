@@ -1,6 +1,6 @@
 # Analysis of Contaminated Reasoning
 
-Code implementation for the paper "*A Narrowing Geometry in Contaminated Reasoning*".
+Code implementation for the paper "*A Narrowing Geometry in Contaminated Reasoning*" (ICML 2026).
 Datasets used for analysis (e.g., leaked and clean data) are placed in `dataset` directory.
 
 ## 0. Getting Started
