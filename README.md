@@ -9,6 +9,7 @@ Datasets used for analysis (e.g., leaked and clean data) are placed in `dataset`
 git clone https://github.com/jiakuan929/ContamReasoning.git
 cd ContamReasoning
 
+conda create -n contam python=3.10
 # Install required dependencies
 pip install -r requirements.txt
 ```
