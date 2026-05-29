@@ -16,7 +16,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from bas import load_hf_model_tokenizer
-from detection2.det_utils import collect_AG
+from detection_stable.utils import collect_AG
 
 
 def _logdet_active_and_rank_from_gram(
@@ -24,13 +24,7 @@ def _logdet_active_and_rank_from_gram(
     ridge: float = 1e-4,
     eps_rel: float = 1e-12,
 ) -> tuple[float, int]:
-    """
-    给定中心化数据 X_c [N, D]，用 Gram 矩阵求协方差的非零特征值：
-        Σ = Cov(X) = X_c^T X_c / (N-1)
-    并返回：
-        L = sum_i log(λ_i + ridge)   （只对非零 λ_i）
-        r = rank(Σ) = 非零特征值个数
-    """
+
     X_c = X_c.to(torch.float64)
     N = X_c.shape[0]
     denom = max(N - 1, 1)
@@ -38,18 +32,14 @@ def _logdet_active_and_rank_from_gram(
     # Gram: K = X X^T / (N - 1)
     K = (X_c @ X_c.T) / denom  # [N, N]
 
-    # 特征值（协方差的非零特征值）
     evals = torch.linalg.eigvalsh(K)  # [N]
-    # 数值噪声可能有微小负值，截断到 0
     evals = torch.clamp(evals, min=0.0)
 
     if evals.numel() == 0:
         return 0.0, 0
 
-    # 以最大特征值为参照，确定“非零”阈值
     max_e = evals.max()
     if max_e <= 0:
-        # 完全零方差（几乎不可能），直接返回 0, 0
         return 0.0, 0
 
     thresh = max_e * eps_rel
@@ -60,7 +50,6 @@ def _logdet_active_and_rank_from_gram(
     if r == 0:
         return 0.0, 0
 
-    # 对非零特征值算 sum log(λ_i + ridge)
     L = torch.sum(torch.log(evals_eff + ridge)).item()
     return L, r
 
@@ -72,14 +61,7 @@ def gaussian_mi_gram_proper(
     ridge: float = 1e-4,
     eps_rel: float = 1e-12,
 ) -> float:
-    """
-    基于 Gram 矩阵的高斯互信息估计：
-        I(A;G) = 0.5 [ log|Σ_A+epsI| + log|Σ_G+epsI| - log|Σ_AG+epsI| ]
-    其中每个 logdet 拆成：
-        log|Σ + eps I| = L_active + (D - r)*log(eps)
-    并在代码里显式合并 (D - r) log(eps) 项，避免数值抵消。
-    """
-    # 转 double，避免谱分解时的数值不稳定
+
     A = A_samples.detach().to(torch.float64)
     G = G_samples.detach().to(torch.float64)
 
@@ -87,13 +69,11 @@ def gaussian_mi_gram_proper(
     _, D_g = G.shape
     D_joint = D_a + D_g
 
-    # 中心化
+
     Ac = A - A.mean(dim=0, keepdim=True)
     Gc = G - G.mean(dim=0, keepdim=True)
 
-    # A 的活跃 logdet 和秩
     L_a, r_a = _logdet_active_and_rank_from_gram(Ac, ridge=ridge, eps_rel=eps_rel)
-    # G 的活跃 logdet 和秩
     L_g, r_g = _logdet_active_and_rank_from_gram(Gc, ridge=ridge, eps_rel=eps_rel)
 
     # Joint: Gram([A,G]) = Ac Ac^T + Gc Gc^T
@@ -102,7 +82,6 @@ def gaussian_mi_gram_proper(
     K_g = Gc @ Gc.T
     K_joint = (K_a + K_g) / denom
 
-    # Joint 特征值
     evals_j = torch.linalg.eigvalsh(K_joint)
     evals_j = torch.clamp(evals_j, min=0.0)
 
@@ -123,7 +102,6 @@ def gaussian_mi_gram_proper(
 
     L_j = torch.sum(torch.log(evals_j_eff + ridge)).item()
 
-    # 把 (D - r)*log(ridge) 那些常数项解析地合并
     log_eps = math.log(ridge)
     const_term = (r_j - r_a - r_g) * log_eps
 
@@ -187,24 +165,10 @@ def compute_mi_alpha(
     else:
         A_c = A
 
-    # 2) alpha = U_k^T (A - mu)  -> [N, k]
     alpha = A_c @ U_k  # [N, k]
 
-    # 3) 构造 V = W^T U_k, 其中每一列 v_i = W^T u_i
-    #    W: [d_out, d_in], U_k: [d_in, k]
-    #    => V: [d_out, k]
-    # V = W.T @ U_k  # [d_in, k] 但注意: Y = A W^T, G: d_out; 我们要 v_i ∈ R^{d_out}.
-    # 实际上应该这样写： v_i = W^T u_i, 但上面 W: [d_out, d_in],
-    # 要满足 Y = A W^T 时, W^T: [d_in, d_out], 所以 W 的定义要和你代码里保持一致。
-    # 若你在代码里是 Y = A @ W.T, 且 W.shape = [d_out, d_in],
-    # 那么 v_i = W @ u_i => V = W @ U_k.
-
-    # 为了不混淆，这里用更安全的写法:
     V = W @ U_k  # [d_out, k]
 
-    # 4) g_alpha = V^T G^T, 对每个样本 i:
-    #    g_alpha[i, j] = v_j^T g_y[i]
-    #    形式上就是 G @ V -> [N, k]
     if center_G:
         G_c = G - G.mean(dim=0, keepdim=True)
     else:
