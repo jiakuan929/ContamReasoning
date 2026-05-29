@@ -12,7 +12,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from bas import load_hf_model_tokenizer, free_generate
-from detection2.det_utils import collect_AG
+from detection_stable.utils import collect_AG
 
 
 class ActivationCollector:
